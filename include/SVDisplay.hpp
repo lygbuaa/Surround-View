@@ -5,7 +5,7 @@
 #include <SVRender.hpp>
 
 #define GLFW_INCLUDE_ES32
-#include "glfw3/glfw3.h"
+#include "GLFW/glfw3.h"
 
 
 using int32 = int32_t;

@@ -1,3 +1,10 @@
+# dependencies
+1. `apt install nvidia-cuda-toolkit nvidia-cuda-toolkit-gcc`
+2. `apt install libglm-dev libglfw3-dev libassimp-dev libegl-dev libgles-dev`
+3. `opencv 4.x with cuda support`
+4. if using assimp-5.2, copy the config file to let cmake find it: `cp /usr/lib/x86_64-linux-gnu/cmake/assimp-5.2/assimpConfig.cmake  /usr/lib/x86_64-linux-gnu/cmake/assimp-5.2/assimp-config.cmake`
+
+
 ## The 3D surround view on Jetson Tegra TX2 platform - this is my research project for master thesis.
 The essence of the project is to build a good quality stitching of images from 4 cameras and project the image onto a mesh model with acceptable performance. The project work on ~20 fps with constraints from the connection adaptor 30 fps due the synchronize frames mode.
 
